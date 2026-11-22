@@ -25,6 +25,14 @@ npm test         # simulation tests (Vitest)
 npm run build    # type-check and production build into dist/
 ```
 
+Play it in a browser at https://michael-jacob.github.io/cotton-mill/
+
+To publish a new version there:
+
+```bash
+npm run deploy   # tests, builds, and pushes dist/ to the gh-pages branch
+```
+
 ## What is in the game
 
 - **Machines, in order of invention:** great wheel, handloom with flying
